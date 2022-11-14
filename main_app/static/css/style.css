@@ -12,3 +12,7 @@ body {
     padding-top: 0;
     text-align: right;
   }
+
+  .nav-wrapper, .page-footer {
+    background-color: rgba(122, 36, 110, 0.92);
+  }
