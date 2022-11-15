@@ -6,3 +6,5 @@ class Finch(models.Model):
     habitat = models.CharField(max_length=100)
     threats = models.TextField(max_length=100) #text box!
     
+    def __str__(self):
+        return f'{self.name} ({self.id})'
